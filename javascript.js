@@ -48,4 +48,21 @@ Note that BigInt is also a primitive type in JavaScript, which is used to repres
 
  */
 
+/*
+What is the difference between null and undefined?
+Undefined
+
+undefined is a type that represents an uninitialized or non-existent variable. It is the default value of a variable that has not been assigned a value.
+let x;
+console.log(x); // undefined
+
+Null
+
+null, on the other hand, is a value that represents the absence of any object value. It is a deliberate assignment of "no value" to a variable.
+let x = null;
+console.log(x); // null
+
+
+*/
+
 
