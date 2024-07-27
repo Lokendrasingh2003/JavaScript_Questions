@@ -319,3 +319,45 @@ An IIFE is a self-invoking function that runs immediately after it's defined. It
 That's it! These are the different ways to define a function in JavaScript. Each has its own use cases and advantages, so it's essential to understand when to use each one.
 ------------------------------------------------------------
 */
+
+
+/* 
+--------------------------------------------------------------
+What is the purpose of the let keyword in JavaScript?
+In simple terms, let is used to declare a variable that has a limited scope, meaning it's only accessible within a specific block of code.
+-----------------------------------------------------------
+
+*/
+
+/* 
+--------------------------------------------------------------
+What is the purpose of the const keyword in JavaScript?
+The const keyword in JavaScript is used to declare a constant variable, which means its value cannot be changed after it's assigned.
+
+Think of it like a label on a box that's glued shut. Once you've put a value in the box, you can't open it again to change the value.
+
+Here are some key points about const:
+
+Constant value: A variable declared with const must be assigned a value at the time of declaration, and that value cannot be changed later.
+
+Block scope: Like let, const variables are block-scoped, meaning they're only accessible within the block they're declared in.
+
+Reassignment allowed: You can reassign a new value to a const variable, but only if it's a reference to an object or array. The properties of the object or elements of the array can still be changed.
+
+Use cases:
+
+Immutable data: Use const to declare variables that should not be changed, such as configuration settings or constants in mathematics.
+Object references: Use const to declare variables that reference objects or arrays, and ensure that the reference itself doesn't change.
+Example:
+const PI = 3.14; // PI is a constant value
+console.log(PI); // Output: 3.14
+
+PI = 3; // Error: PI is a constant value
+
+const obj = { x: 10 }; // obj is a constant reference to an object
+obj.x = 20; // OK: changing the property of the object
+console.log(obj); // Output: { x: 20 }
+
+obj = { y: 30 }; // Error: obj is a constant reference
+-------------------------------------------------------------
+*/
