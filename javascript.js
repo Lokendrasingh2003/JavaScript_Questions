@@ -184,3 +184,48 @@ You need to create a closure: Anonymous functions can create a closure, which is
 */
 
 
+
+/* 
+----------------------------------------------------------
+What are closures in JavaScript?
+A closure is a special type of function in JavaScript that has access to its own scope and the scope of its parent functions.
+
+here is an example of it.
+function outer() {
+  let secret = "I'm a secret!"; // Parent scope variable
+
+  function inner() { // Closure function
+    console.log(secret); // Access parent scope variable
+  }
+
+  return inner;
+}
+
+const myClosure = outer();
+myClosure(); // Output: I'm a secret!
+----------------------------------------------------------
+
+*/
+
+
+
+  /* 
+  -------------------------------------------------------
+  What is the difference between == and === in JavaScript?
+  In JavaScript, there are two types of equality operators: == (loose equality) and === (strict equality). Understanding the difference between them is crucial for writing accurate and reliable code.
+
+  Loose Equality (==)
+
+  The == operator checks if the values of two variables are equal, but it doesn't care about the data type. It's like comparing apples and oranges - if they look similar, it's good enough!
+
+  Strict Equality (===)
+
+  The === operator checks if the values and data types of two variables are identical. It's like comparing apples to apples - they must be exactly the same!
+  --------------------------------------------------------
+  */
+
+
+  /* 
+  
+  
+  */
