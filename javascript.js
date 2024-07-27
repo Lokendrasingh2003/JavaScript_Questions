@@ -271,5 +271,51 @@ person.sayHello();
 /* 
 ----------------------------------------------------------
 What are the different ways to define a function in JavaScript?
+In JavaScript, there are several ways to define a function. Don't worry, I'll break them down in simple terms!
 
+1. Function Declaration
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+This is the most common way to define a function. You use the function keyword, followed by the function name, parameters in parentheses, and the function body in curly braces.
+
+2. Function Expression
+const greet = function(name) {
+  console.log(`Hello, ${name}!`);
+};
+This is similar to a function declaration, but you assign the function to a variable (in this case, greet). The function is defined as an expression, and the variable holds a reference to the function.
+
+3. Arrow Function (ES6+ only)
+const greet = (name) => {
+  console.log(`Hello, ${name}!`);
+};
+Arrow functions are a concise way to define small, single-expression functions. They're often used for simple, one-line functions. Note that arrow functions don't have their own this context, so be careful when using them.
+
+4. Method Definition (inside an object)
+const person = {
+  greet: function(name) {
+    console.log(`Hello, ${name}!`);
+  }
+};
+When you define a function inside an object, it becomes a method of that object. You can call the method using the object's property, like person.greet("John").
+
+5. Constructor Function (with new keyword)
+function Person(name) {
+  this.name = name;
+  this.greet = function() {
+    console.log(`Hello, my name is ${this.name}!`);
+  };
+}
+const john = new Person("John");
+john.greet(); // Output: Hello, my name is John!
+Constructor functions are used to create objects with a specific structure. When you use the new keyword, a new object is created, and the constructor function is called to initialize it.
+
+6. Immediately Invoked Function Expression (IIFE)
+(function() {
+  console.log("Hello, world!");
+})();
+An IIFE is a self-invoking function that runs immediately after it's defined. It's often used to create a scope for variables or to execute code once, without polluting the global namespace.
+
+That's it! These are the different ways to define a function in JavaScript. Each has its own use cases and advantages, so it's essential to understand when to use each one.
+------------------------------------------------------------
 */
