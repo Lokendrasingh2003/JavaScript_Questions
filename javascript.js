@@ -216,16 +216,36 @@ myClosure(); // Output: I'm a secret!
 
   Loose Equality (==)
 
-  The == operator checks if the values of two variables are equal, but it doesn't care about the data type. It's like comparing apples and oranges - if they look similar, it's good enough!
+  The == operator checks if the values of two variables are equal, but it doesn't care about the data type. 
 
   Strict Equality (===)
 
-  The === operator checks if the values and data types of two variables are identical. It's like comparing apples to apples - they must be exactly the same!
+  The === operator checks if the values and data types of two variables are identical. 
   --------------------------------------------------------
   */
 
 
   /* 
-  
-  
+  --------------------------------------------------------
+  What is hoisting in JavaScript?
+  Hoisting is a mechanism in JavaScript where variables and functions are moved to the top of their scope, regardless of where they're actually declared.
+
+  Variables Hoisting-
+
+  When you declare a variable using var, JavaScript "hoists" it to the top of its scope, but only the declaration, not the assignment. This means that the variable is moved to the top, but its value is still undefined until the assignment is reached.
+  console.log(x); // Output: undefined
+  var x = 10;
+
+
+  Functions Hoisting-
+
+  Functions, on the other hand, are hoisted entirely, including their declarations and definitions. This means that you can call a function before it's actually declared.
+
+  Here's an example:
+  hello(); // Output: "Hello, World!"
+
+  function hello() {
+    console.log("Hello, World!");
+  }
+------------------------------------------------------
   */
