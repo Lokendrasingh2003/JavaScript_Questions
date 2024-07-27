@@ -249,3 +249,22 @@ myClosure(); // Output: I'm a secret!
   }
 ------------------------------------------------------
   */
+
+
+/* 
+----------------------------------------------------------
+What is the this keyword in JavaScript?
+In simple terms, this refers to the current object that the code is being executed in.
+here is the example.
+const person = {
+  name: "John",
+  sayHello: function() {
+    console.log(this); // Output: person object
+    console.log(`Hello, my name is ${this.name}!`);
+  }
+};
+
+person.sayHello();
+----------------------------------------------------------
+*/
+
