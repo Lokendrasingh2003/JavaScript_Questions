@@ -382,5 +382,27 @@ Flexibility: Template literals support multiline strings and can be used with va
 
 /*
 -------------------------------------------------------------------------
+What are JavaScript promises?
+JavaScript promises are a way to handle asynchronous operations in a more manageable and readable way. They help you write code that's easier to understand and maintain, even when dealing with complex asynchronous tasks.
 
+Promises to the Rescue
+A promise is like a contract that says: "I'll do this task, and when I'm done, I'll let you know." You can think of it like ordering food at a restaurant:
+
+You order food (make a request)
+The restaurant promises to prepare your food (creates a promise)
+When the food is ready, the restaurant notifies you (resolves the promise)
+Here's a simple example:
+
+const promise = new Promise((resolve, reject) => {
+  // Do some asynchronous work (e.g., boil water)
+  setTimeout(() => {
+    // When the work is done, resolve the promise
+    resolve("Coffee is ready!");
+  }, 2000);
+});
+
+// When the promise is resolved, log the result
+promise.then((result) => {
+  console.log(result); // Output: "Coffee is ready!"
+});
  */
