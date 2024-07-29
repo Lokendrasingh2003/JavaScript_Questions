@@ -50,6 +50,7 @@ Note that BigInt is also a primitive type in JavaScript, which is used to repres
  */
 
 /*
+-----------------------------------------------------------------------------------------
 What is the difference between null and undefined?
 Undefined
 
@@ -62,12 +63,13 @@ Null
 null, on the other hand, is a value that represents the absence of any object value. It is a deliberate assignment of "no value" to a variable.
 let x = null;
 console.log(x); // null
-
+-------------------------------------------------------------------------------------
 
 */
 
 
 /*
+--------------------------------------------------------------------------------------
 What is the DOM in JavaScript?
 The Document Object Model (DOM) is a programming interface for HTML and XML documents. in easy language by the help of dom javascript access the values and properties of html and xml and also can manupilate.
 By understanding the DOM, developers can create dynamic, interactive web pages that respond to user input and provide a rich user experience.
@@ -77,12 +79,13 @@ const myElement = document.getElementById('myElement');
 
 // Change the text content of the element
 myElement.innerHTML = 'New text content!';
-
+------------------------------------------------------------------------------------------
 */
 
 
 
 /* 
+-------------------------------------------------------------------------------------
 What is an event in JavaScript?
 
 Events in JavaScript
@@ -129,7 +132,7 @@ scroll: Triggered when a page is scrolled.
 Conclusion
 
 In summary, events in JavaScript are like notifications that something has happened on a web page. By using event handlers, you can write code that responds to these events and creates interactive web pages.
-
+-----------------------------------------------------------------------------
 
 */
 
