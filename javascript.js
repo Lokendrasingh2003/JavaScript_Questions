@@ -405,4 +405,25 @@ const promise = new Promise((resolve, reject) => {
 promise.then((result) => {
   console.log(result); // Output: "Coffee is ready!"
 });
+-------------------------------------------------------------------------
  */
+
+/*
+--------------------------------------------------------------------------
+What is the async/await syntax in JavaScript?
+The async/await syntax is a way to write asynchronous code in JavaScript that's easier to read and maintain. It's built on top of promises, but it makes your code look and feel more like synchronous code.
+
+Key Concepts
+Async: A function marked with the async keyword can contain await expressions.
+Await: The await keyword pauses the execution of the async function until the promise is resolved or rejected.
+Try/Catch: You can use try/catch blocks to handle errors in async functions.
+
+How It Works
+When you call an async function, it returns a promise. When the function encounters an await expression, it pauses execution and waits for the promise to be resolved or rejected. When the promise is resolved, the function resumes execution with the resolved value.
+---------------------------------------------------------------------
+ */
+
+/* 
+--------------------------------------------------------------------------
+What are arrow functions in JavaScript?
+*/
