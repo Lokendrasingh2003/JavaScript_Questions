@@ -3,6 +3,7 @@
 
 
 /* 
+------------------------------------------------------------------------------
  What are the data types in JavaScript?
  JavaScript supports multiple data types, which are devided into primitive and non-primitive types. The primitive data types include:Number,String,Boolean,Null,Undefined,Symbol.
 
@@ -45,7 +46,7 @@ In JavaScript, a Symbol is a primitive data type introduced in ECMAScript 2015 (
 The non-primitive types include Object, Array, and Function.
 
 Note that BigInt is also a primitive type in JavaScript, which is used to represent big integers more accurately.
-
+----------------------------------------------------------------------------
  */
 
 /*
