@@ -365,3 +365,22 @@ console.log(obj); // Output: { x: 20 }
 obj = { y: 30 }; // Error: obj is a constant reference
 -------------------------------------------------------------
 */
+
+/* 
+------------------------------------------------------------------------
+What are template literals in JavaScript?
+Template literals are a way to create strings in JavaScript that are more readable and easier to maintain. They were introduced in ECMAScript 2015 (ES6) as a replacement for traditional string concatenation.
+
+Template literals use backticks (``) to define a string, and ${} to insert expressions.
+
+Benefits of Template Literals
+Readability: Template literals make your code more readable by allowing you to embed expressions directly within the string.
+Conciseness: You don't need to use the + operator to concatenate strings, making your code more concise.
+Flexibility: Template literals support multiline strings and can be used with various data types, including numbers, booleans, and objects.
+----------------------------------------------------------------------
+*/
+
+/*
+-------------------------------------------------------------------------
+
+ */
